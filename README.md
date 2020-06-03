@@ -7,7 +7,7 @@ please install all pip3 packets, and activate source
 pip3 install flask, flask-sqlalchemy, jinja2
 source my-env-/bin/activate
 ```
-you need to create a db
+If there no test.db file, you need to create one
 
 ```
 python3
@@ -15,10 +15,10 @@ python3
 >>>db.create_all()
 
 ```
-
 ## Running 
-run 
+run in console
 ```
 python3 app.py
 ```
 and then open  http://127.0.0.1:5000
+*SHIFT+F5, if the styles not loaded properly
