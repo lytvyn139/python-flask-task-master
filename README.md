@@ -1,0 +1,24 @@
+# Task master 🌶️
+Here is code for Python Flask, app called Taks Master, which allows user to do CRUD in db records. It's dynamically rendered with jinja2.
+
+## Installing
+please install all pip3 packets, and activate source
+```
+pip3 install flask, flask-sqlalchemy, jinja2
+source my-env-/bin/activate
+```
+you need to create a db
+
+```
+python3
+>>>from app import db 
+>>>db.create_all()
+
+```
+
+## Running 
+run 
+```
+python3 app.py
+```
+and then open  http://127.0.0.1:5000
